@@ -1,4 +1,6 @@
 {
   "installCommand": "bun install",
-  "buildCommand": "bun run build"
+  "buildCommand": "cd /vercel/path0 && bun run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
 }
